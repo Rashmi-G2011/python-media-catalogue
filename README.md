@@ -2,7 +2,7 @@
 
 Overview
 
-Python Media Catalogue is a console-based application developed using Python and Object-Oriented Programming (OOP). It allows users to add, search, remove, and manage a collection of movies and TV series through an interactive menu-driven interface. The project demonstrates key OOP concepts such as inheritance, method overriding, custom exceptions, input validation, and type hints while maintaining a clean, modular, and reusable code structure.
+Python Media Catalogue is a console-based application developed using Python and Object-Oriented Programming (OOP). It allows users to add, search, remove, and manage a collection of movies and TV series through an interactive menu-driven interface. The project demonstrates core OOP concepts such as inheritance, method overriding, custom exceptions, type hints, and input validation while maintaining a clean, modular, and reusable code structure.
 
 ---
 
@@ -20,7 +20,7 @@ Features
 - Strong input validation
 - Handle invalid operations using custom exceptions
 - Type hints for improved readability and maintainability
-- Clean and beginner-friendly implementation
+- Clean and beginner-friendly code structure
 
 ---
 
@@ -33,8 +33,9 @@ Technologies Used
 - Method Overriding
 - Custom Exceptions
 - Type Hints
-- Lists
 - Functions
+- Lists
+- Conditional Statements
 - Exception Handling
 
 ---
@@ -44,7 +45,15 @@ Project Structure
 python-media-catalogue/
 │
 ├── media_catalogue.py
-└── README.md
+├── README.md
+└── LICENSE (optional)
+
+---
+
+Requirements
+
+- Python 3.10 or later
+- No external libraries required
 
 ---
 
@@ -58,6 +67,34 @@ Menu Options
 5. Remove Media
 6. Display Statistics
 7. Exit
+
+---
+
+Sample Output
+
+========== MEDIA CATALOGUE ==========
+1. Add Movie
+2. Add TV Series
+3. Display Catalogue
+4. Search Media
+5. Remove Media
+6. Display Statistics
+7. Exit
+
+Enter your choice: 1
+
+----- Add Movie -----
+Title: Interstellar
+Release Year: 2014
+Director: Christopher Nolan
+Duration (minutes): 169
+
+Movie added successfully!
+
+========== MEDIA CATALOGUE ==========
+
+----- MOVIES -----
+1. Interstellar (2014) | 169 min | Director: Christopher Nolan
 
 ---
 
@@ -99,8 +136,8 @@ This project helped strengthen understanding of:
 - Overriding methods
 - Creating and using custom exceptions
 - Validating user input
-- Writing modular and reusable code
-- Using type hints
+- Writing clean, modular, and reusable code
+- Using type hints effectively
 - Managing collections of objects
 - Building a menu-driven console application
 
@@ -110,7 +147,7 @@ How to Run
 
 1. Clone this repository.
 
-git clone https://github.com/your-username/python-media-catalogue.git
+git clone https://github.com/Rashmi-G2011/python-media-catalogue.git
 
 2. Navigate to the project folder.
 
@@ -122,8 +159,16 @@ python media_catalogue.py
 
 ---
 
+License
+
+This project is licensed under the MIT License.
+
+---
+
 Author
 
 Rashmi G
 
-Aspiring Software Engineer | Python Developer | Passionate about Object-Oriented Programming, problem solving, and building Python projects.
+Aspiring Software Engineer | Python Developer
+
+Passionate about Object-Oriented Programming, problem solving, and building practical Python projects to strengthen software development skills.
