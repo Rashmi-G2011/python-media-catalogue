@@ -72,29 +72,9 @@ Menu Options
 
 Sample Output
 
-========== MEDIA CATALOGUE ==========
-1. Add Movie
-2. Add TV Series
-3. Display Catalogue
-4. Search Media
-5. Remove Media
-6. Display Statistics
-7. Exit
+## Screenshot
 
-Enter your choice: 1
-
------ Add Movie -----
-Title: Interstellar
-Release Year: 2014
-Director: Christopher Nolan
-Duration (minutes): 169
-
-Movie added successfully!
-
-========== MEDIA CATALOGUE ==========
-
------ MOVIES -----
-1. Interstellar (2014) | 169 min | Director: Christopher Nolan
+![Media Catalogue Output](images/media-catalogue-output.png)
 
 ---
 
